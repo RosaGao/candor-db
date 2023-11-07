@@ -1,0 +1,63 @@
+User
+  user_id 
+  fname
+  lname
+  DOB 
+  email 
+  language
+  city 
+  country 
+
+HasGender
+  user_id 
+  gender_id 
+
+PrefersGender 
+  user_id 
+  gender_id
+
+Gender 
+  gender_id
+  name 
+  description
+
+Viewed
+  viewer_id 
+  viewee_id 
+  viewer_action -- (likes, dislikes)
+  timestamp 
+  duration
+
+
+--------------------
+Blocks
+  who_blocks
+  who_is_blocked 
+  timestamp
+
+
+--------------------
+RelationshipType
+  rel_id
+  name
+
+OpenToRelationship
+  user_id 
+  rel_id
+--------------------
+
+
+
+
+
+  
+
+
+
+
+
+
+
+   
+
+   

@@ -1,0 +1,23 @@
+While viewing person B's profile, person A must make a binary decision -- swipe right to indicate liking B or swipe left to indicate disliking. 
+
+A and B match and may start a conversation if and only if they swipe right on each other. 
+Additionally, if A swipes left on B before B sees A's profile, A will never show up in B's feed. 
+
+Candor uses an Elo rating system to evaluate the popularity of a user. The underlying premise is that people with similar levels of attractiveness will be most likely to swipe right on each other. Candor exposes a user's profile to a higher proportion of people with a similar elo rating, theoretically increasing their chances of matching.
+
+1. If user A swipes left on user B before the B sees A's profile, A blocks B. Create a VIEW called Blocks that lists the user who blocks, the user who is blocked, and the timestemp of this blocking event. 
+
+2. Elo rating is defined by a simple formula: E = 
+Create a VIEW called EloRating that lists the user and his or her elo rating. 
+
+3. List the names of all users who are heterosexual and have swiped right more often on those who are homosexsual than those who are heterosexual. 
+
+4. List the name of users who have more than average view duration by others but have less than average like-to-dislike ratio. 
+
+5. List the name and gender of users who cannot be matched with anyone they like. (i.e. swiped left by everyone they swipe right on)
+
+6. Among the users who have been swiped left by at least one person that they like and has a lower Elo rating, list the name and age of those those who are bisexual.  
+
+7. List the names, ages, city, and country of all pairs of matched users that are in the same city and country. 
+
+8. List the name and gender of all users who, on a single day, have more than 80% chance to swipe right on profiles they view for less than 5 seconds. 
