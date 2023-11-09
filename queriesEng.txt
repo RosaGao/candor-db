@@ -21,3 +21,19 @@ Create a VIEW called EloRating that lists the user and his or her elo rating.
 7. List the names, ages, city, and country of all pairs of matched users that are in the same city and country. 
 
 8. List the name and gender of all users who, on a single day, have more than 80% chance to swipe right on profiles they view for less than 5 seconds. 
+
+9. List the most common relationship type among people who have 5 or more profile photos.
+
+10. List the average elo of users who have are taller than 5' 10" and born in November in the capital of each country in the database.
+
+11. List the people who are in at least 10 chatrooms where they were the last to send a message.
+
+12. Create a view "Match" with columns user1_id and user2_id where user1_id and user2_id mutually liked each other's profiles. (The view should be symmetric, meaning that if tuple (1000, 2000) exists, (2000, 1000) should also exist
+
+13. From "Match", list the tuple that has the highest elo difference.
+
+14. List the user_id, city, height, and relationship type of the user who has the lowest like to match ratio (liked a lot but is not liked back). 
+
+15. List all user_id, fname, lname, and chat_id of users are in a chat where a message was sent by the same user 5 consecutive times. 
+
+16. List the user_id, fname, lname, and height of users who have a height difference of more than 10 inches and are from different cities.
